@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+Rounded+1c&family=Poppins:wght@700&family=Teko&display=swap" rel="stylesheet">
+    <title>Starbucks</title>
+</head>
+<body>
+    
+    <div class="main">
+        <div id="circle">
+        </div>
+        <header>
+            <img src="logo.png" alt="">
+            <ul>
+            <li><a href="#" class="active">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">What's new</a></li>
+             <li><a href="#">contact</a></li>
+         </ul>
+         
+     </header>
+     <div id="container">
+         <ul class="thumb">
+             <li><img src="1.png" alt="" onclick="imgSlider('1.png');changecirclecolor('#007047')"></li>
+             <li><img src="2.png" alt="" onclick="imgSlider('2.png');changecirclecolor('#EA7A9A')"></li>
+             <li id="pink"><img src="3.png" alt="" onclick="imgSlider('3.png');changecirclecolor('#FFAEED')"></li>
+         </ul>
+         <i class="ri-facebook-fill" id="facebook"></i>
+         <i class="ri-instagram-line" id="instagram"></i>
+         <i class="ri-youtube-line" id="youtube"></i>
+        <h1>It's not just coffee<br>It's <span>Starbuks</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Architecto doloremque animi officiis odit.<br> Sapiente rerum debitis dicta ad unde, suscipit quis soluta<br> odit aperiam non fugiat? Iure, corrupti soluta.</p>
+            <button>learn more</button>
+        <div class="image_container">
+            <img src="1.png" alt="" class="Starbucks">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

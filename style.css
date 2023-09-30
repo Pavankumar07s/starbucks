@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+     
+
+}
+header{
+    display: flex;
+    height: 10%;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    height: 50px;
+    position: relative;
+    margin-left: 50px;
+    
+    
+}
+header ul{
+    display: flex;
+    margin-right: 7%;
+
+}
+header ul li{
+    list-style: none;
+    
+    
+}
+header ul li a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 21px;
+    color:grey;
+    letter-spacing: 1px;
+    font-weight: 530;
+    transition: ease-in-out 400ms;
+
+}
+header ul li a:hover,header ul li a.active{
+    cursor: pointer;
+    color:#007047;
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+.main #circle{
+    position: absolute;
+    background-color: #007047;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 700px);
+}
+
+.main #container{
+    width: 100%;
+    height: calc(100% - 10%);
+    
+}
+
+.main #container h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    font: 600;
+    line-height: 4rem;
+    color: #222227c0;
+    margin-top: 130px;
+    margin-left: 100px;
+
+
+}
+.main #container h1 span{
+    color: #007047;
+    font-weight: 900;
+    font-size: 4.8rem;
+}
+
+.main #container p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #34343bae;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.main #container button{
+    margin-left: 100px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 1.1rem;
+    border-radius: 30px;
+    color:whitesmoke;
+    border: transparent;
+    background-color: #007047;
+    transition: ease-in-out 400ms;
+}
+.main #container #facebook{
+    margin-right: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 97%;
+    transition: ease-in-out 200ms;
+}
+.main #container #instagram{
+    margin-right: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 48%;
+    left: 97%;
+    transition: ease-in-out 200ms;
+}
+.main #container #youtube{
+    margin-right: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 56%;
+    left: 97%;
+    transition: ease-in-out 200ms;
+}
+.main #container #youtube:hover{
+    scale: 1.2;
+    transform: translateY(-8px);
+    cursor: pointer;
+
+}
+.main #container #instagram:hover{
+    scale: 1.2;
+    transform: translateY(-8px);
+    cursor: pointer;
+
+}
+.main #container #facebook:hover{
+    scale: 1.2;
+    transform: translateY(-8px);
+    cursor: pointer;
+
+}
+.image_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 68%;
+    height: 75%;
+    padding: 6px;
+    
+}
+.image_container img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    transition: ease-in-out 400ms;
+    
+}
+.image_container img:hover{
+    
+    scale:1.1;
+}
+
+.thumb{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    bottom: 20px;
+    left: 40%;
+    padding: 10px;
+    
+}
+.thumb li{
+       list-style: none;
+       transition: ease-in-out 200ms;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+}
+.thumb img{
+    height: 60px;
+}
+.thumb #pink img{
+   scale: 1.15;
+   
+}
+.thumb li:hover{
+    scale: 1.2;
+    transform: translateY(-8px);
+    cursor: pointer;
+
+}
+button:hover{
+    scale: 1.1;
+}
